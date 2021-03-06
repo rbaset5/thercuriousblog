@@ -1,0 +1,54 @@
+---
+title: Possession and pace, Offensive/Defensive Ratings and the Four Factors
+author: ''
+date: '2021-03-04'
+slug: []
+categories: []
+tags: ("NBA", "Team Analysis", "Visualization", "Four Factors")
+draft: yes
+---
+
+## 
+
+The possession concept, in partiuclar the concept of equal pessessions for oppents in a game, is central to basketball analysis.Estimates of possessions have existed for approximately two
+decades, but the various formulas have sometimes created confusion. I'm looking to study the relationship between poessions and various statistics using estimates to provide a common basis for future posession estimation and discussing concepts like pace and four factors between NBA teams in the ___ for the purposes of this post. 
+
+Pace can be analyzed by calculating posessions first and the stricly related statistic accounting for the pace of the game is calculating total minutes played by all the players. 
+
+Per-possession efficiency is measured as the poitns scored or alloed per 100 possessions, called Offensive(ORtg) and Defensive (DRtg) Rating, respectively; 
+
+ORtg = P T ST /P OSST (2.3) DRtg = PTSO/POSSO (2.4)
+where the subscripts T and O refer to whether the statistic is computed on the analyzed team or the opponent(s).
+
+where the subscripts T and O refer to whether the statistic is computed on the analyzed team or the opponent(s).
+
+Finally, you have your Four-Factor forumals computing for each of the offense and defense. 
+
+'''{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+'''
+
+'''{r}
+library(BasketballAnalyzeR)
+
+'''
+
+
+'''{r}
+PbP <- PbPmanipulation(PbP.BDB)
+
+tm <- c("BOS","CLE","GSW","HOU")
+
+'''
+
+## Pace 
+
+
+## Offensive/Defensive Ratings
+
+
+## Offensive/Defensive Four Factors 
+
+
+

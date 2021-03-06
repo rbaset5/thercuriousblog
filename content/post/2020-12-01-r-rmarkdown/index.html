@@ -1,0 +1,45 @@
+---
+title: "Possession and pace, Offensive/Defensive Ratings and the Four Factors"
+#author: "Frida Gomam"
+date: 2021-03-04
+categories: ["R", "Basketball", "NBA"]
+tags: ["Team Analysis", "Visualization", "Four Factors"]
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>The possession concept, in partiuclar the concept of equal pessessions for oppents in a game, is central to basketball analysis.Estimates of possessions have existed for approximately two
+decades, but the various formulas have sometimes created confusion. I’m looking to study the relationship between poessions and various statistics using estimates to provide a common basis for future posession estimation and discussing concepts like pace and four factors between NBA teams in the ___ for the purposes of this post.</p>
+<p>Pace can be analyzed by calculating posessions first and the stricly related statistic accounting for the pace of the game is calculating total minutes played by all the players.</p>
+<p>Per-possession efficiency is measured as the poitns scored or alloed per 100 possessions, called Offensive(ORtg) and Defensive (DRtg) Rating, respectively;</p>
+<p>ORtg = P T ST /P OSST (2.3) DRtg = PTSO/POSSO (2.4)
+where the subscripts T and O refer to whether the statistic is computed on the analyzed team or the opponent(s).</p>
+<p>where the subscripts T and O refer to whether the statistic is computed on the analyzed team or the opponent(s).</p>
+<p>Finally, you have your Four-Factor forumals computing for each of the offense and defense.</p>
+<pre class="r"><code>library(BasketballAnalyzeR)</code></pre>
+<pre><code>## Loading required package: ggplot2</code></pre>
+<pre><code>## Registered S3 method overwritten by &#39;GGally&#39;:
+##   method from   
+##   +.gg   ggplot2</code></pre>
+<pre><code>## 
+## If you want to reproduce the figures contained in the book of
+## Zuccolotto and Manisera (2020) and
+## if the version of your R machine is &gt;= 3.6.0, you need to type
+## RNGkind(sample.kind = &quot;Rounding&quot;)
+## at the beginning of your working session</code></pre>
+<pre class="r"><code>PbP &lt;- PbPmanipulation(PbP.BDB)
+tm &lt;- c(&quot;BOS&quot;,&quot;CLE&quot;,&quot;GSW&quot;,&quot;HOU&quot;)
+selTeams &lt;- which(Tadd$team %in% tm)
+
+plot(FF.sel)</code></pre>
+<pre><code>## Error in plot(FF.sel): object &#39;FF.sel&#39; not found</code></pre>
+<div id="pace" class="section level2">
+<h2>Pace</h2>
+</div>
+<div id="offensivedefensive-ratings" class="section level2">
+<h2>Offensive/Defensive Ratings</h2>
+</div>
+<div id="offensivedefensive-four-factors" class="section level2">
+<h2>Offensive/Defensive Four Factors</h2>
+</div>

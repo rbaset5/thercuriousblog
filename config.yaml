@@ -1,8 +1,8 @@
 baseURL: example.com
 languageCode: en-us
-title: Archie
+title: R-curious
 theme: archie
-copyright: © Athul
+copyright: © Rashid
 pygmentsstyle: monokai
 pygmentscodefences: yes
 pygmentscodefencesguesssyntax: yes
@@ -11,14 +11,14 @@ params:
   social:
     - icon: github
       name: GitHub
-      url: https://github.com/athul/archie
+      url: https://github.com/rbaset5
     - icon: twitter
       name: Twitter
-      url: https://github.com/athulcajay/
+      url: https://twitter.com/rashidbaset
     - icon: gitlab
       name: GitLab
-      url: https://gitlab.com/athul/
-  subtitle: Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)
+      url: https://gitlab.com/rbaset5/
+  subtitle: A blog exploring the intersections of R and sociology, economics, and business.
   useCDN: no
 menu:
   main:
