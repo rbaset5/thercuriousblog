@@ -1,4 +1,4 @@
-baseURL: example.com
+baseURL: "/"
 languageCode: en-us
 title: R-curious
 theme: archie
@@ -34,3 +34,8 @@ menu:
     - name: Tags
       url: /tags
       weight: 4
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
