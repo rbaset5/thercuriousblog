@@ -9,7 +9,7 @@ description: R-curious - a blog by Rashid Baset
 title: About
 ---
 
-R-curious is a bloggy.  
+R-curious is a blogh.  
 
 
 Learn more and contribute on [GitHub](https://github.com/gohugoio).
